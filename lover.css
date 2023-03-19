@@ -1,0 +1,373 @@
+
+body {
+
+    background-color: rgb(19, 7, 41);
+
+}
+
+
+/* Header */
+
+.nav {
+
+width: 20rem;
+height: 100vh;
+position: fixed;
+display: flex;
+z-index: 100;
+transform: translateX(-80%);
+transition: all 0.5s;
+}
+
+.hide {
+
+width: 80%;
+height: 100%;
+background-color: rgb(29, 7, 68);
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-between;
+transition: all 0.5s;
+
+}
+
+.toogle{
+
+    transform: translateX(0%);
+
+}
+
+.pebo {
+
+    transform: translateX(0%);
+
+
+}
+
+
+.social {
+
+cursor: pointer;
+
+}
+
+.novy {
+
+padding: 0;
+list-style-type: none;
+text-decoration: none;
+line-height: 3rem;
+transform: translateY(-100%);
+overflow: hidden;
+transition: all 1s;
+}
+
+.Whuy {
+
+    transform: translateY(0%);
+
+
+}
+
+.lelo {
+
+    transform: translateY(-100%);
+
+
+}
+
+.alone{
+
+cursor: pointer;
+transition: all .3s;
+
+}
+
+.alone:hover {
+
+color: orange;
+
+}
+
+.logo{
+
+width: 300%;
+
+}
+
+.icon-cross{
+
+cursor: pointer;
+
+}
+
+.displaypage {
+
+display: flex;
+background-color: rgb(78, 9, 9);
+height: 100vh;
+width: 20%;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+
+}
+
+
+/* searchpage */
+
+.searchpage {
+
+
+display: none;
+
+}
+
+
+.formers{
+
+width: 100%;
+margin: 20px 10px 10px;
+background-color: rgb(19, 7, 41);
+color: white;
+
+
+}
+
+.settingserch {
+
+
+    justify-content: space-evenly;
+
+
+}
+
+.formers::placeholder {
+
+color: rgb(153, 109, 109);
+
+}
+
+.formers:focus {
+
+background-color: rgb(19, 7, 41) !important;
+color: white;
+
+}
+
+.tran {
+
+background-color: rgba(230, 219, 219, 0.795);
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+padding: 10px;
+position: absolute;
+top: 100%;
+transition: all 0.4s;
+z-index: 10;
+border-radius: 0.6rem;
+cursor: pointer;
+}
+
+.boxico{
+
+position: relative;
+overflow: hidden;
+}
+
+.boxico:hover .tran{
+
+top: 0;
+
+}
+
+
+/* sectioon 3 */
+
+.seso{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+text-align: center;
+
+
+}
+
+.section3 {
+
+display: none;
+
+}
+
+
+
+
+/* sectioon 4 */
+
+.Area {
+
+display: none;
+
+}
+
+.house{
+
+font-size: 5rem;
+
+
+
+}
+
+.hello {
+
+cursor: pointer;
+
+}
+
+
+
+/* like top */
+
+.Ingredients {
+
+display: none;
+
+
+}
+
+
+
+
+
+
+/* sectioon 5*/
+
+
+.last {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+margin: auto;
+display: none;
+
+}
+
+.holy {
+
+    margin: auto;
+text-align: center;
+}
+
+.error {
+    border: 2px solid #0eb34d;
+    outline-style: none;
+    
+}
+
+.success {
+    border: 2px solid #ee5a05;
+    outline-style: none;
+}
+
+.diff {
+
+display: none;
+
+}
+
+#suouby:disabled {
+
+    opacity: 0.4;
+    cursor: not-allowed;
+
+}
+
+
+
+/* reload */
+
+.loading {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(17, 19, 54);
+    z-index: 1000;
+    
+    }
+    
+    
+    .loader {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    }
+    .loader::before , .loader::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    width: 48em;
+    height: 48em;
+    background-image:
+    radial-gradient(circle 10px, #FFF 100%, transparent 0),
+    radial-gradient(circle 10px, #FFF 100%, transparent 0),
+    radial-gradient(circle 10px, #FFF 100%, transparent 0),
+    radial-gradient(circle 10px, #FFF 100%, transparent 0),
+    radial-gradient(circle 10px, #FFF 100%, transparent 0),
+    radial-gradient(circle 10px, #FFF 100%, transparent 0),
+    radial-gradient(circle 10px, #FFF 100%, transparent 0),
+    radial-gradient(circle 10px, #FFF 100%, transparent 0);
+    background-position: 0em -18em, 0em 18em, 18em 0em, -18em 0em,
+                13em -13em, -13em -13em, 13em 13em, -13em 13em;
+    background-repeat: no-repeat;
+    font-size: 0.5px;
+    border-radius: 50%;
+    animation: blast 1s ease-in infinite;
+    }
+    .loader::after {
+    font-size: 1px;
+    background: #fff;
+    animation: bounce 1s ease-in infinite;
+    }
+    
+    @keyframes bounce {
+    0% , 100%{ font-size: 0.75px }
+    50% { font-size: 1.5px }
+    }
+    @keyframes blast {
+    0% , 40% {
+    font-size: 0.5px;
+    }
+    70% {
+    opacity: 1;
+    font-size: 4px;
+    }
+    100% {
+    font-size: 6px;
+    opacity: 0;
+    }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+

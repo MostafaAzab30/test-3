@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>test 3</title>
+<link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="icons/style.css">
+<link rel="stylesheet" href="lover.css">
+<script defer src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.js"></script>
+<script defer src="bootstrap-5.3.0-alpha1-dist/js/jquery-3.6.3.min.js"></script>
+<script defer src="like.js"></script>
+</head>
+
+<body class="text-white" onload="loadi()">
+
+
+
+<div id="reload" class="loading">
+
+<span class="loader"></span>
+
+
+</div>
+
+
+
+
+
+
+
+<header id="first" class="nav">
+
+<div  class="hide p-3">
+
+<ul id="moveyl" class="novy fs-5">
+
+<li id="li1" class="alone">Search</li>
+<li id="li2" class="alone">Categories</li>
+<li id="li3" class="alone">Area</li>
+<li id="li4" class="alone">Ingredients</li>
+<li id="li5" class="alone">Contact Us</li>
+
+</ul>
+
+<div>
+<span class="icon-facebook2 social"></span>
+<span class="icon-twitter social"></span>
+<span class="icon-sphere social"></span>
+<p>Copyright Â© 2019 All Rights Reserved</p>
+</div>
+</div>
+
+
+
+<div class="displaypage py-4 px-4">
+
+<img src="logo.png" class="logo">
+<span id="cross" class="icon-sphere fs-3 text-white"></span>
+
+<div>
+
+<span class="icon-sphere"></span>
+<span class="icon-share2"></span>
+
+</div>
+
+</div>
+
+
+</header>
+
+
+
+
+
+
+<section id="sec7" class="container">
+
+    <div id="owner" class="row gap-0 pt-5">
+    
+    
+    <!-- <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+    <div class="boxico">
+    
+    
+    <img src="20.jpg" class="w-100 rounded" alt="">
+    
+    <div class="tran"><h3 class="text-dark">Azab</h3></div>
+    
+    
+    
+    </div>
+    </div> -->
+    
+    
+    
+    </div>
+    
+    
+    
+    </section>
+
+
+
+
+
+
+
+<section id="sec1" class="container searchpage">
+
+
+<div id="bigsearch" class="settingserch row">
+
+<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+<input onkeyup="searchByName(this.value)" type="text" placeholder="Search By Name" class="form-control formers ">
+</div>
+
+<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+<input id="oly" onkeyup="searchByFLetter(this.value)" type="text" placeholder="Search By First Letter" class="form-control formers col-xl-3 col-lg-4 col-md-6 col-sm-12" maxlength="1">
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div id="dates" class="row gap-0 mt-5">
+
+
+<!-- <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+<div class="boxico">
+
+
+<img src="20.jpg" class="w-100 rounded" alt="">
+
+<div class="tran"><h3 class="text-dark">Azab</h3></div>
+
+
+
+</div>
+</div> -->
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+<section id="sec2" class="container section3">
+
+
+<div id="categories" class="row gap-0 pt-5">
+
+
+<!-- <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+
+<div class="boxico">
+
+<img src="20.jpg" class="w-100 rounded" alt="">
+
+<div class="tran seso">
+
+<h3 class="text-dark">Azab</h3>
+<p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et exercitationem nemo voluptas, sit tenetur eos?</p>
+
+</div>
+
+
+
+</div>
+</div> -->
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+<section id="sec3" class="container Area">
+
+
+<div id="area" class="row gap-0 pt-5">
+
+
+<!-- <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4 text-center hello">
+
+
+<span class="icon-home mx-auto house"></span>
+
+<h3 class="text-white">Azab</h3>
+
+
+</div> -->
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+<section id="sec4" class="container Ingredients">
+
+
+    <div id="Ingredients" class="row gap-0 pt-5">
+    
+    
+    <!-- <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4 text-center hello">
+    
+    
+    <span class="icon-download2 mx-auto house"></span>
+    
+    <h3 class="text-white">Azab</h3>
+
+    <p></p>
+    
+    
+    </div> -->
+    
+    
+    
+    </div>
+    
+    
+    
+    </section>
+
+
+
+
+
+
+
+<section id="sec5" class="container last">
+
+
+<div class="row gap-0 holy">
+
+
+<div class="col-xl-6 col-lg-6 col-md-5 col-sm-12 my-3 ms-auto">
+<input id="inpu1" type="text" placeholder="Enter Your Name" class="form-control ageco">
+<p id="p1" class="bg-info text-dark rounded px-2 py-3 mt-2 diff">Special characters and numbers not allowed</p>
+</div>
+
+<div class="col-xl-6 col-lg-6 col-md-5 col-sm-12 my-3 ms-auto">
+<input id="inpu2" type="text" placeholder="Enter Your Email" class="form-control ageco">
+<p id="p2" class="bg-info text-dark rounded px-2 py-3 mt-2 diff">Email not valid *exemple@yyy.zzz</p>
+</div>
+
+<div class="col-xl-6 col-lg-6 col-md-5 col-sm-12 my-3 ms-auto">
+<input id="inpu3" type="text" placeholder="Enter Your Phone" class="form-control ageco">
+<p id="p3" class="bg-info text-dark rounded px-2 py-3 mt-2 diff">Enter Valid Phone Numper</p>
+</div>
+
+<div class="col-xl-6 col-lg-6 col-md-5 col-sm-12 my-3 ms-auto">
+<input id="inpu4" type="number" placeholder="Enter Your Age" class="form-control ageco">
+<p id="p4" class="bg-info text-dark rounded px-2 py-3 mt-2 diff">Enter valid age</p>
+</div>
+
+<div class="col-xl-6 col-lg-6 col-md-5 col-sm-12 my-3 ms-auto">
+<input id="inpu5" type="password" placeholder="Enter Your Password" class="form-control ageco">
+<p id="p5" class="bg-info text-dark rounded px-2 py-3 mt-2 diff">Enter valid password *Minimum eight characters, at least one letter and one number:*</p>
+</div>
+
+<div class="col-xl-6 col-lg-6 col-md-5 col-sm-12 my-3 ms-auto">
+<input id="inpu6" type="password" placeholder="RePassword" class="form-control ageco">
+<p id="p6" class="bg-info text-dark rounded px-2 py-3 mt-2 diff">Enter valid repassword</p>
+</div>
+
+<button id="suouby" class="btn btn-dark w-25 mx-auto">Submit</button>
+
+</div>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
